@@ -1,0 +1,18 @@
+---
+apiVersion: imgpkg.carvel.dev/v1alpha1
+images:
+- annotations:
+    kbld.carvel.dev/id: quay.io/metallb/controller:v0.10.3
+    kbld.carvel.dev/origins: |
+      - resolved:
+          tag: v0.10.3
+          url: quay.io/metallb/controller:v0.10.3
+  image: quay.io/metallb/controller@sha256:eb21a440f191934b702e900b33b5c4ed1a66fbb49d72f8e8914baa443ce9ae44
+- annotations:
+    kbld.carvel.dev/id: quay.io/metallb/speaker:v0.10.3
+    kbld.carvel.dev/origins: |
+      - resolved:
+          tag: v0.10.3
+          url: quay.io/metallb/speaker:v0.10.3
+  image: quay.io/metallb/speaker@sha256:ddb1a9dd45d18c2bba07bb9168958a9ae4596d38393263ddfcc35ab76a90fa13
+kind: ImagesLock
