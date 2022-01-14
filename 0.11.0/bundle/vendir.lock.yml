@@ -1,0 +1,11 @@
+apiVersion: vendir.k14s.io/v1alpha1
+directories:
+- contents:
+  - git:
+      commitTitle: Automated update for release v0.11.0
+      sha: 846c55af003807f1fe4066711607122456509fc4
+      tags:
+      - v0.11.0
+    path: .
+  path: config/upstream
+kind: LockConfig
