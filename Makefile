@@ -2,7 +2,7 @@
 # SPDX-License-Identifier: Apache-2.0
 
 REQUIRED_BINARIES := imgpkg kbld ytt vendir
-PACKAGE_VERSIONS := 0.11.0
+PACKAGE_VERSIONS := 0.12.1
 OCI_IMAGE := ghcr.io/alexandreroman/metallb-tanzu-extra
 
 check-carvel:
